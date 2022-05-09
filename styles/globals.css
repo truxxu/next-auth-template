@@ -32,10 +32,6 @@ footer, header, nav, section, audio, video {
 table {
   border-collapse: separate;
   border-spacing: 0;
-  caption, th, td {
-    text-align: left;
-    vertical-align: middle;
-  }
 }
 
 a img {
