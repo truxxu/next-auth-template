@@ -1,7 +1,9 @@
 import React from "react";
 
+import { AuthForm } from "../src/organisms";
+
 const auth = () => {
-  return <div>auth</div>;
+  return <AuthForm />;
 };
 
 export default auth;
