@@ -2,8 +2,8 @@ import React from "react";
 
 import { AuthForm } from "../src/organisms";
 
-const auth = () => {
+const Auth = () => {
   return <AuthForm />;
 };
 
-export default auth;
+export default Auth;

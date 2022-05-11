@@ -40,15 +40,14 @@ const AuthForm = () => {
   };
 
   const onSubmit = async (data) => {
-    // event.preventDefault();
-    console.log("success!");
-
     if (isLogin) {
       const result = await signIn("credentials", {
         redirect: false,
         email: data.email,
         password: data.password,
       });
+
+      console.log(result.error);
 
       if (!result.error) {
         // set some auth state
